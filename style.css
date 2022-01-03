@@ -1,4 +1,312 @@
-body {
+a {
+    text-decoration: none;
+}
 
-    
+a::after {
+    color: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5vw;
+}
+
+h2 {
+    font-size: 2.8vw;
+    margin-left: 5vw;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategrey;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,
+    sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+nav {
+    width: 100%;
+    height: 5vw;
+    position: sticky;
+    top: 0;
+    background-color: darkslategrey;
+    z-index: 99;
+}
+
+.nav-list {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-variant: small-caps;
+}
+
+.nav-list li {
+    margin: 0 3vw ;
+    color: greenyellow;
+}
+
+.nav-list a {
+    color: greenyellow;
+    font-weight: 600;
+    font-size: 1.4vw;
+}
+
+
+header {
+    height: 40vw;
+}
+
+.card {
+    width: 40vw;
+    display: flex;
+    margin: 3vw auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-me {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    border: 0.2vw solid greenyellow;
+    overflow: hidden;
+}
+.name {
+    margin-top: 5%;
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+.img-me img {
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+main {
+    height: auto;
+}
+
+.connection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.telegram {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-image: url(images/telegram.png);
+    box-shadow: 4px 4px 0 rgb(31, 51, 51);
+    position: relative; 
+    left: 0; 
+    top: 0; 
+    transition: 1s;
+}
+
+.telegram:hover {
+    left: 4px;
+    top: 4px;
+    box-shadow: none;
+}
+
+.github {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-image: url(images/github.png);
+    box-shadow: 4px 4px 0  rgb(31, 51, 51);
+    position: relative; 
+    left: 0; 
+    top: 0; 
+    transition: 1s;
+}
+
+.github:hover {
+    left: 4px;
+    top: 4px;
+    box-shadow: none;
+}
+
+.email {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-image: url(images/email.png);
+    box-shadow: 4px 4px 0 rgb(31, 51, 51);
+    position: relative; 
+    left: 0; 
+    top: 0; 
+    transition: 1s;
+}
+
+.email:hover {
+    left: 4px;
+    top: 4px;
+    box-shadow: none;
+}
+
+#about-me div {
+    margin-left: 5vw;
+    margin: 0 5vw;
+    font-size: 2vw;
+    text-indent: 3vw;
+    font-weight: 500;
+}
+
+.skills-list {
+    display: flex;
+    margin-left: 8vw;
+}
+
+.skills-list li {
+    margin-right: 2vw;
+    width: 12vw;
+    height: 4vw;
+}
+
+.card-skill {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(35, 59, 59);
+    border-radius: 10px;
+    font-size: 1.8vw;
+    text-align: center;
+    font-weight: 500;
+    color:lightblue;
+}
+
+.card-skill-img {
+    width: 4vw;
+}
+
+.card-skill-img img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 70%;
+}
+
+code {
+    font-family: monospace;
+    margin-left: 15vw;
+    font-size: 1.8vw;
+}
+
+code div {
+    margin-left: 18.5vw;
+}
+
+.card-course {
+    width: 70vw;
+    height: 4vw;
+    margin: 0 auto 1vw ;
+    border-radius: 0.7vw;
+    background-color: rgb(35, 59, 59);
+    color: lightblue;
+    font-size: 1.4vw;
+    text-align: center;
+}
+
+.year {
+    width: 10%;
+}
+
+.name-course {
+    width: 60%;
+    text-align: start;
+    padding-left: 5%;
+    border-left: 0.2vw solid greenyellow;   
+    border-right: 0.2vw solid greenyellow; 
+}
+
+.school a {
+    color: lightblue;
+    text-decoration: underline rgba(173, 216, 230, 0.2);
+}
+
+.card-project {
+    background-image: url(images/Project1.png);
+    background-size: 100%;
+    width: 25vw;
+    height: 12.2vw;
+    margin-left: 8vw;
+    border-radius: 0.3vw;
+}
+
+.card-project div {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.3vw;
+    font-size: 1.5vw;
+    font-weight: 500;     
+}
+
+.card-project a {
+    color: lightblue;
+}
+
+.card-lang {
+    width: 25vw;
+    height: 4vw;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+    background-color:rgb(35, 59, 59);
+    border-radius: 0.7vw;  
+    color: lightblue;
+}
+
+#ru {
+    margin-left: 8vw;
+}
+
+#eng {
+    margin: 2vw 0 2vw 8vw;
+}
+
+.level {
+    width: 30%;
+}
+
+#ru .level {
+    border-left: 0.2vw solid greenyellow;
+}
+
+#eng .level {
+    border-right: 0.2vw solid greenyellow;
+}
+
+footer {
+    height: 5vw;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+}
+
+.copyright {
+    font-size: 1.6vw;
+    font-weight: 500;
 }
