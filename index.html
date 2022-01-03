@@ -5,9 +5,150 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="icon" href="images/favi.ico">
+    <title>Artem Gorbachev - Junior Front-End Developer</title>
 </head>
 <body>
-    
+<nav>
+    <ul class="nav-list">
+        <li><a href="#contacts">contacts</a></li>
+        <li><a href="#about-me">about me</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#code-ex">code example</a></li>
+        <li><a href="#courses">courses</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#languages">languages</a></li>
+    </ul>
+</nav>
+
+<header>
+    <div class="card"> 
+        <div class="img-me"><img src="images/me.jpg" alt="Me"></div>
+        <div class="name">Gorbachev Artem</div>
+    </div>
+
+    <h1 id="contacts">Junior Front-End Developer</h1>
+</header>
+
+<main>
+    <section>
+        <ul class="connection">
+            <li><a href="https://t.me/ag0320"><div class=telegram title="@ag0320"></div></a></li>
+            <li><a href="https://github.com/Artem0320"><div class="github" title="Artem0320"></div></a></li> 
+            <li><a href="mailto:ag2003g@yandex.ru"> <div class="email" title="ag2003g@yandex.ru"></div></a></li>
+        </ul>
+    </section>
+      
+    <section id="about-me">
+        <h2>About me</h2>
+        <div>
+            The purpose of completing the course at RSSchool is to get the necessary competencies in order to get a job as a front-end developer. 
+            My strengths: perseverance, dedication. I have a great desire to study, and I am ready to devote time and energy to this
+        </div>
+    </section>
+        
+    <section id="skills">
+        <h2>Skills and proficiency</h2>
+        <ul class="skills-list">
+            <li> 
+                <table class="card-skill">
+                    <tr>
+                        <td class="card-skill-img"><img src="images/html.png" alt="html"></td>
+                        <td>HTML</td>
+                    </tr>
+                </table>
+            </li>
+
+            <li> 
+                <table class="card-skill">
+                    <tr>
+                        <td class="card-skill-img"><img src="images/css.png" alt="css"></td>
+                        <td>CSS</td>
+                    </tr>
+                </table>
+            </li>
+
+            <li> 
+                <table class="card-skill">
+                    <tr>
+                        <td  class="card-skill-img"><img src="images/git.png" alt="git"></td>
+                        <td>GIT</td>
+                    </tr>
+                </table>           
+            </li>
+        </ul>
+    </section>
+        
+    <section id="code-ex">
+        <h2>Code example</h2>
+        <code>
+            <span style="color: rgb(37, 88, 182);">function</span> <span style="color: rgb(221, 200, 81);">multiply</span>
+            <span style="color: greenyellow;">(</span><span style="color: lightblue;">a</span>, 
+            <span style="color: lightblue;">b</span><span style="color: greenyellow;">)</span><span style="color: greenyellow;">{</span>
+                <div>
+                <span style="color: blueviolet;">return</span> <span style="color: lightblue;">a</span> * <span style="color: lightblue;">b</span>
+                </div>
+                <div style="color: greenyellow; margin-left: 15vw;">}</div>
+                
+        </code>
+    </section>
+
+    <section id="courses">
+        <h2>Completed courses</h2>
+        <table class="card-course">
+            <tr>
+                <td class="year">2021</td>
+                <td class="name-course">HTML for beginers</td>
+                <td class="school"><a href="https://ru.code-basics.com/">Code basics</a></td>
+            </tr>
+        </table>
+
+        <table class="card-course">
+            <tr>
+                <td class="year">2021</td>
+                <td class="name-course">CSS for beginers</td>
+                <td class="school"><a href="https://ru.code-basics.com/">Code basics</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card-project"><a href="https://artem0320.github.io/rsschool-cv/">
+            <div><p>This CV</p></div>
+        </a></div>
+    </section>
+
+    <section id="languages">
+        <h2>Languages</h2>
+        <table class="card-lang" id="ru">
+            <tr>
+                    <td>Russian</td>
+                    <td class="level">Nativ</td>
+            </tr>
+        </table>
+
+        <table class="card-lang" id="eng">
+            <tr>
+                <td class="level">A1</td>
+                <td>English</td>
+            </tr>
+        </table>
+    </section> 
+</main>
+
+<footer>
+    <ul class="footer-list">
+        <li>
+            <div class="copyright"> &copy Gorbachev Artem 2022 </div>  
+        </li>
+        <li>
+           <a href="https://github.com/Artem0320"> <img src="images/github.png" alt="GitHub" width="35vw" height="35vw"> </a>
+        </li>
+        <li>
+             <a href="https://rs.school/js/"> <img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool logo" width="94vw" height="35vw" ></a>
+        </li>
+    </ul>
+</footer>
 </body>
 </html>
