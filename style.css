@@ -14,6 +14,8 @@ h1 {
 h2 {
     font-size: 2.8vw;
     margin-left: 5vw;
+    margin-top: -1em;
+    padding-top: 2em;
 }
 
 ul {
@@ -96,6 +98,11 @@ header {
 
 main {
     height: auto;
+}
+
+#contacts {
+    margin-top: -2em;
+    padding-top: 4em;
 }
 
 .connection {
@@ -204,10 +211,6 @@ code {
     font-size: 1.8vw;
 }
 
-code div {
-    margin-left: 18.5vw;
-}
-
 .card-course {
     width: 70vw;
     height: 4vw;
@@ -306,7 +309,17 @@ footer {
     align-items: center;
 }
 
+#footer-git {
+    width: 3em;
+    height: 3em;
+}
+
+#footer-rsschool {
+    width: 8em;
+    height: 3em;
+}
+
 .copyright {
-    font-size: 1.6vw;
+    font-size: 2em;
     font-weight: 500;
 }
